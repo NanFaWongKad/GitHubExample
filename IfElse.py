@@ -23,6 +23,27 @@ elif x == 111:
 else:
     pass #* Let it pass for now
 
-#* Match Statement
+#* Nested-if if in if in if...
 
-# todo 2:12:12 to learning
+user = "member"
+password = "1234"
+number_of_use = "2"
+if user == "member" and password == "1234":
+    print("login OK")
+    if number_of_use == "1":
+        print("A")
+    if number_of_use == "2":
+        print("B")
+    if number_of_use != "1" and number_of_use != "2":
+        print("XXX")
+else:
+    print("Can't login")
+
+#* Match Statement case
+NumBank = "4"
+match NumBank:
+    case "1":print("1")
+    case "2":print("22")
+    case "3":print("333")
+    case "4":print("4444")
+    case _:print("what is this?") #! เหมือน else

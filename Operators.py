@@ -36,6 +36,17 @@ print(x<y)
 print(x>=y)
 print(x<=y)
 
-#* Logical Operators
+#* Logical Operators and or not
+
+username = input("name: " )
+password = input("password: ")
+
+if username == "admin" and password == "123456789":
+    print("pass")
+elif username == "admin" or password == "123456789":
+    print("user OK but password wrong")
+else:
+    print("all wrong")
+
 #* Identity Operators
 #* Membership Operators

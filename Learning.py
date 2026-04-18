@@ -12,4 +12,4 @@ cc
 """
 
 #* print
-print("ABC","abc","Learning")
+print("ABC","abc","Learning") #! oneline
