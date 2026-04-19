@@ -48,5 +48,15 @@ elif username == "admin" or password == "123456789":
 else:
     print("all wrong")
 
-#* Identity Operators
-#* Membership Operators
+#* Identity Operators is , is not (same or not)
+
+colorA = ["A","B","C"]
+colorB = ["A","B","C"]
+print(colorA is colorB) #! A and B are not the same.
+data = colorA #* copy colorA
+print(colorA is data)
+
+#* Membership Operators in , not in (in the group or not)
+
+colors = ["red","green","blue"]
+print("red"in colors)
